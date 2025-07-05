@@ -22,4 +22,32 @@
             <td> University of Lagos </td>
         </tr>
         </table>
+        <h2> Want to work for MECHSWIFT-MECHSPACE? </h2>
+        <p> I mean who wouldn't 🤷</p>
+        <form action="/submit-application" method="post">
+            <div>
+            <label for="fullName"> Your Name:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Adewunmi" required>
+            </div>
+            <br>
+            <div>
+                <label for="certification"> What do you have to wow us? </label><br>
+                <select id="certification" name="certification">
+                    <option value="">------Select one-------</option>
+                    <option value="waec"> WAEC/GCE </option>
+                    <option value="undergrad/grad"> 2:1 </option>
+                    <option value="undergrad/grad"> 2:2 </option>
+                    <option value="undergrad/grad"> > 2:2 </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="messageContent"> Why Should we hire you? </label><br>
+                <textarea id="messageContent" name="messageContent" rows="7" cols="60" placeholder="Brag..."></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit"> Submit Application</button>
+            </div>
+        </form>
     </body>
